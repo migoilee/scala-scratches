@@ -7,5 +7,5 @@ scalaVersion := "2.13.11"
 organization := "com.amy"
 
 libraryDependencies ++= {
-  	Seq()
+  	Seq("org.typelevel" %% "cats-core" % "2.9.0")
 }
